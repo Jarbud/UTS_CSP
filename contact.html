@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/logo.png" type="image/icon type">
+    <script src="https://kit.fontawesome.com/42e5ce52b7.js" crossorigin="anonymous"></script>
+    <title>Movie X</title>
+</head>
+<body>
+    <div class="home-tbl-container">
+        <table width="60%" class="home-tbl">
+            <tr>
+                <td><a class="home-menu" href="index.html">Home</a></td>
+                <td><a class="home-menu" href="movies.html">Movies</a></td>
+                <td><a class="home-menu" href="req.html">Request Movie</a></td>
+                <td><a class="home-menu" href="about.html">About Us</a></td>
+                <td><a class="home-menu" href="contact.html">Contact Us</a></td>
+            </tr>
+        </table>
+    </div>
+    <div class="home-nowplaying-container" style="height: 590px;">
+        <div class="home-nowplaying-title" style="width: 238px;">Contact Us</div>
+        <div style="text-align: center;padding-left: 120px;">
+            <div class="contact">
+                <h2>Contact us</h2>
+                <form action="" method="get" style="font-size: 20px;">
+                    <table>
+                        <tr>
+                            <td><label for="#email">Email :</label></td>
+                            <td><input id="email" name="email" type="email" style="height: 20px;" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="#nama">Nama :</label></td>
+                            <td><input pattern="[a-zA-Z]+" oninvalid="setCustomValidity('Tolong input hanya alphabets saja. ')" id="nama" name="nama" type="text" style="height: 20px;" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="#pesan">Pesan :</label></td>
+                            <td><textarea id="pesan" name="pesan" type="text" cols="45" rows="15" required minlength="10"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><button class="home-btn" style="float: right;" type="submit">Kirim</button></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <div class="contact">
+                <h2>Contact</h2>
+                <p>Nama </p>
+                <p>Fajar Budi Kurniawan</p>
+                <p>NIM </p>
+                <p>21201010</p>
+                <p>Jurusan </p>
+                <p>Teknik Informatika</p>
+                <p>Fakultas </p>
+                <p>Fakultas Teknik dan Desain</p>
+            </div>
+        </div>
+        
+    </div>
+    <div class="footer">
+        &copy; Copyright by Fajar Budi, design Fajar Budi
+    </div>
+</body>
+</html>

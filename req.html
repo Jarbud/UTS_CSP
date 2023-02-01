@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/logo.png" type="image/icon type">
+    <script src="https://kit.fontawesome.com/42e5ce52b7.js" crossorigin="anonymous"></script>
+    <title>Movie X</title>
+</head>
+<body>
+    <div class="home-tbl-container">
+        <table width="60%" class="home-tbl">
+            <tr>
+                <td><a class="home-menu" href="index.html">Home</a></td>
+                <td><a class="home-menu" href="movies.html">Movies</a></td>
+                <td><a class="home-menu" href="req.html">Request Movie</a></td>
+                <td><a class="home-menu" href="about.html">About Us</a></td>
+                <td><a class="home-menu" href="contact.html">Contact Us</a></td>
+            </tr>
+        </table>
+    </div>
+    <div class="home-nowplaying-container" style="height: 535px;">
+        <div class="home-nowplaying-title" style="width: 338px;">Request Movies</div>
+        <form action="" method="get">
+            <table class="table-req" style="color: white;">
+                <tr>
+                    <td style="padding-bottom: 10px;"><label for="email">Email :</label></td>
+                    <td style="padding-bottom: 10px;" align="right"><input id="email" name="email" type="email" style="height: 20px;" required></td>
+                </tr>
+                <tr>
+                    <td style="padding-bottom: 10px;"><label for="nama">Nama :</label></td>
+                    <td style="padding-bottom: 10px;" align="right"><input pattern="[a-zA-Z]+" oninvalid="setCustomValidity('Tolong input hanya alphabets saja. ')" id="nama" name="nama" type="text" style="height: 20px;" required></td>
+                </tr>
+                <tr>
+                    <td style="padding-bottom: 10px;"><label>Jenis Kelamin :</label></td>
+                    <td style="padding-bottom: 10px;" align="right"><input id="jk1" name="jk" type="radio" value="Laki-Laki"><label for="jk1">Laki-Laki</label>
+                        <input id="jk2" name="jk" type="radio" value="Perempuan"><label for="jk2">Perempuan</label></td>
+                </tr>
+                <tr>
+                    <td style="padding-bottom: 10px;"><label for="req">Request Movie :</label></td>
+                    <td style="padding-bottom: 10px;" align="right"><input id="req" name="req" type="text" style="height: 20px;" required></td>
+                </tr>
+                <tr>
+                    <td style="padding-bottom: 10px;"><label>Kualitas Video :</label></td>
+                    <td style="padding-bottom: 10px;" align="right"><input id="ck1" name="ck1" type="checkbox" value="3GP"><label for="ck1">3GP</label>
+                        <input id="ck2" name="ck2" type="checkbox" value="WEBP"><label for="ck2">WEBP</label>
+                        <input id="ck3" name="ck3" type="checkbox" value="HD"><label for="ck3">HD</label></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button class="home-btn" style="float: right;" type="submit">Kirim</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div class="footer">
+        &copy; Copyright by Fajar Budi, design Fajar Budi
+    </div>
+</body>
+</html>
